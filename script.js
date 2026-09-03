@@ -1,0 +1,1 @@
+const m=document.querySelector('.menu'),n=document.querySelector('nav');m.onclick=()=>n.style.display=n.style.display==='flex'?'none':'flex';document.getElementById('year').textContent=new Date().getFullYear();function send(e){e.preventDefault();document.getElementById('note').textContent=' Message recorded in this demo form.';e.target.reset();return false;}
